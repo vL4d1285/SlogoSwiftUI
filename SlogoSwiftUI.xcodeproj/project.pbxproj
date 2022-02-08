@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		D0E898D027B279E0001C03D8 /* SlogoSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E898CF27B279E0001C03D8 /* SlogoSwiftUIApp.swift */; };
-		D0E898D227B279E0001C03D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E898D127B279E0001C03D8 /* ContentView.swift */; };
+		D0E898D227B279E0001C03D8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E898D127B279E0001C03D8 /* MainView.swift */; };
 		D0E898D427B279E1001C03D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E898D327B279E1001C03D8 /* Assets.xcassets */; };
 		D0E898D727B279E1001C03D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E898D627B279E1001C03D8 /* Preview Assets.xcassets */; };
+		D0E898E327B2A549001C03D8 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E898E227B2A549001C03D8 /* LogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D0E898CC27B279E0001C03D8 /* SlogoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlogoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E898CF27B279E0001C03D8 /* SlogoSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlogoSwiftUIApp.swift; sourceTree = "<group>"; };
-		D0E898D127B279E0001C03D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0E898D127B279E0001C03D8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D0E898D327B279E1001C03D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0E898D627B279E1001C03D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0E898E227B2A549001C03D8 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				D0E898CF27B279E0001C03D8 /* SlogoSwiftUIApp.swift */,
-				D0E898D127B279E0001C03D8 /* ContentView.swift */,
+				D0E898D127B279E0001C03D8 /* MainView.swift */,
+				D0E898E227B2A549001C03D8 /* LogoView.swift */,
 				D0E898D327B279E1001C03D8 /* Assets.xcassets */,
 				D0E898D527B279E1001C03D8 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0E898D227B279E0001C03D8 /* ContentView.swift in Sources */,
+				D0E898D227B279E0001C03D8 /* MainView.swift in Sources */,
+				D0E898E327B2A549001C03D8 /* LogoView.swift in Sources */,
 				D0E898D027B279E0001C03D8 /* SlogoSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +276,7 @@
 				DEVELOPMENT_TEAM = ZPVKFVD8X7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SlogoSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -286,7 +291,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,6 +306,7 @@
 				DEVELOPMENT_TEAM = ZPVKFVD8X7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SlogoSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -315,7 +321,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

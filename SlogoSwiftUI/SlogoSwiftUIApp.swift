@@ -11,7 +11,7 @@ import SwiftUI
 struct SlogoSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
